@@ -1,0 +1,28 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  .linkList {
+    list-style: none;
+    height: 100px;
+    position: fixed;
+    left: 5.3%;
+    margin-left: -3px;
+    top: 55%;
+
+    &__link {
+      margin: 5px 0px;
+      .icon {
+        font-size: 20px;
+      }
+    }
+  }
+  .line {
+    border-left: 1px solid rgb(138, 138, 138);
+    height: 100px;
+    position: fixed;
+    left: 6%;
+    margin-left: -3px;
+    bottom: 0;
+  }
+}
