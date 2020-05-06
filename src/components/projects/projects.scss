@@ -1,0 +1,65 @@
+.projects {
+  height: 100vh;
+  width: 75%;
+  margin: 0 auto;
+
+  &__heading {
+    color: white;
+    .coloredNumber {
+      color: #64ffda;
+      margin-right: 10px;
+    }
+  }
+
+  &__sum {
+    margin: 15px 0;
+  }
+
+  &__projectsList {
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    flex-wrap: wrap;
+    .project {
+      list-style-type: none;
+      background-color: #172a45;
+      padding: 5px 5px;
+      position: relative;
+      border-radius: 4px;
+      margin: 10px 5px;
+      width: 30%;
+      height: 250px;
+      flex: 1 1 auto;
+      &__folderIcons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 25px;
+        .folder {
+          font-size: 35px;
+        }
+        .github {
+          font-size: 20px;
+        }
+      }
+      &__title {
+        color: white;
+        margin: 10px 20px;
+      }
+      &__summary {
+        font-size: 13px;
+        margin: 10px 20px;
+      }
+      &__techStack {
+        margin: 0px 20px 10px 20px;
+        height: 20px;
+
+        font-size: 11px;
+        color: #737f9c;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+      }
+    }
+  }
+}

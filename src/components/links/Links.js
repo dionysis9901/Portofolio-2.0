@@ -21,7 +21,6 @@ const Links = () => {
           </a>
         </li>
       </ul>
-      <div className="line"></div>
     </div>
   );
 };

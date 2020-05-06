@@ -1,27 +1,16 @@
 .emailContainer {
+  position: fixed;
   .email {
     text-decoration: none;
     writing-mode: vertical-rl;
-
-    list-style: none;
-    height: 100px;
     position: fixed;
-    right: 5.3%;
-    margin-left: -3px;
-    top: 47%;
-    font-size: 13px;
-    transition: 0.4s;
+    right: 5%;
+    top: 35%;
+    list-style: none;
+    position: fixed;
   }
 
   .email:hover {
     color: #64ffda;
-  }
-  .lineTwo {
-    border-left: 1px solid rgb(138, 138, 138);
-    height: 40px;
-    position: fixed;
-    right: 6%;
-    margin-left: -3px;
-    bottom: 0;
   }
 }

@@ -3,6 +3,8 @@ import NavigationBar from "../navigationBar";
 import LandingContainer from "../landingContainer";
 import Links from "../links";
 import Email from "../email";
+import AboutMe from "../aboutMe";
+import Projects from "../projects";
 
 const HomePage = () => {
   return (
@@ -11,6 +13,8 @@ const HomePage = () => {
       <LandingContainer />
       <Links />
       <Email />
+      <AboutMe />
+      <Projects />
     </div>
   );
 };

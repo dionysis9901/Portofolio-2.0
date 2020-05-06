@@ -7,7 +7,6 @@ const Email = () => {
       <a href="#" className="email">
         dionysis.koufis@gmail.com
       </a>
-      <div className="lineTwo"></div>
     </div>
   );
 };

@@ -16,7 +16,7 @@ const NavigationBar = () => (
         </li>
         <li className="navigationList__navLinks work">
           <span className="numberColored">02. </span>
-          WORK
+          PROJECTS
         </li>
         <li className="navigationList__navLinks contact">
           <span className="numberColored">03. </span>
