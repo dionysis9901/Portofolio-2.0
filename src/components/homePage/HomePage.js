@@ -5,6 +5,8 @@ import Links from "../links";
 import Email from "../email";
 import AboutMe from "../aboutMe";
 import Projects from "../projects";
+import Contact from "../contact";
+import Footer from "../footer";
 
 const HomePage = () => {
   return (
@@ -15,6 +17,8 @@ const HomePage = () => {
       <Email />
       <AboutMe />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 };

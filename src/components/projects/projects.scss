@@ -1,8 +1,7 @@
 .projects {
-  height: 100vh;
+  height: 140vh;
   width: 75%;
   margin: 0 auto;
-
   &__heading {
     color: white;
     .coloredNumber {
@@ -17,19 +16,25 @@
 
   &__projectsList {
     display: flex;
-    // justify-content: center;
-    // align-items: center;
     flex-wrap: wrap;
+
     .project {
-      list-style-type: none;
-      background-color: #172a45;
-      padding: 5px 5px;
+      display: block;
       position: relative;
-      border-radius: 4px;
-      margin: 10px 5px;
-      width: 30%;
-      height: 250px;
+      background-color: #172a45;
+      list-style-type: none;
+
       flex: 1 1 auto;
+
+      height: 40vh;
+      width: 30%;
+
+      padding: 5px 5px;
+      margin: 10px 5px;
+
+      border-radius: 4px;
+      transition: 0.7s;
+
       &__folderIcons {
         display: flex;
         justify-content: space-between;
@@ -40,26 +45,34 @@
         }
         .github {
           font-size: 20px;
+          transition: 0.5s;
+        }
+        .github:hover {
+          transform: scale(1.25);
         }
       }
       &__title {
+        font-family: "Roboto", sans-serif;
         color: white;
         margin: 10px 20px;
       }
       &__summary {
+        font-family: "Roboto", sans-serif;
         font-size: 13px;
         margin: 10px 20px;
       }
       &__techStack {
         margin: 0px 20px 10px 20px;
         height: 20px;
-
         font-size: 11px;
         color: #737f9c;
         position: absolute;
         bottom: 0;
         text-align: center;
       }
+    }
+    .project:hover {
+      transform: scale(1.05);
     }
   }
 }
